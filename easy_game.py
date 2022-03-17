@@ -31,7 +31,7 @@ if __name__ == "__main__":
     window = pygame.display.set_mode((500,800))
     game_font = pygame.font.SysFont("comicsans",50)
 
-    ship_mask = pygame.mask.from_surface(ship)
+    ship_mask = pygame.mask.from_surface(ship) 
 
 
     ship_coordinates_x = 250
